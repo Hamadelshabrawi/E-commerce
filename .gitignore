@@ -1,0 +1,60 @@
+# Ignore vendor directory (Composer dependencies)
+/vendor
+
+# Ignore node_modules directory (npm or Yarn dependencies)
+/node_modules
+
+# Ignore the environment configuration file
+.env
+
+# Ignore the storage directory (logs, cache, session files, etc.)
+/storage
+
+# Ignore the public storage directory (user-uploaded files)
+/public/storage
+
+# Ignore IDE and editor-specific files
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.vscode/
+*.swp
+*.swo
+
+# Ignore database-related files
+/database/*.sqlite
+/database/*.sqlite3
+/database/*.log
+/database/*.sql
+
+# Ignore Laravel Mix compiled files
+/public/css/*.css
+/public/js/*.js
+/public/mix-manifest.json
+
+# Ignore PHPStorm project files
+*.iml
+
+# Ignore OS and text editor auto-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore composer lock file
+composer.lock
+
+/.phpunit.cache
+/public/build
+/public/hot
+/storage/*.key
+.env
+.env.backup
+.env.production
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.vscode
